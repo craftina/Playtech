@@ -1,0 +1,49 @@
+@import "../../../styles/variables";
+
+.dropdown-container {
+    border-left: 2px solid $primary-color;
+    padding-left: 20px;
+    cursor: pointer;
+
+    .dropdown-title {
+        display: flex;
+        align-items: center;
+
+        .dropdown-arrow {
+            margin-left: 5px;
+        }
+    }
+}
+
+.dropdown-list {
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    background-color: $card-background-color;
+    list-style-type: none;
+
+    .dropdown-item {
+        padding: 0 5px 5px 5px;
+
+        .dropdown-button {
+            border: none;
+            background-color: inherit;
+            color: inherit;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+    .dropdown-item:hover {
+        border-radius: 5px;
+        background-color: $card-hover-background-color;
+
+
+        .dropdown-button {
+            color: $background-color;
+        }
+    }
+}

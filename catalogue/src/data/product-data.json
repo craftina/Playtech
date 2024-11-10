@@ -1,0 +1,837 @@
+[
+    {
+        "category": "Софтуер",
+        "products": [
+            {
+                "id": "1s",
+                "name": "Microsoft Office 365",
+                "description": "Пълен пакет офис приложения за професионална употреба.",
+                "image": "/assets/images/office365.jfif",
+                "price": 150.99,
+                "characteristics": [
+                    {
+                        "name": "Приложения",
+                        "value": "Word, Excel, PowerPoint, Outlook"
+                    },
+                    {
+                        "name": "Облачно пространство",
+                        "value": "1TB OneDrive"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows и MacOS"
+                    },
+                    {
+                        "name": "Езици",
+                        "value": "Множество езици"
+                    }
+                ]
+            },
+            {
+                "id": "2s",
+                "name": "Adobe Photoshop",
+                "description": "Професионален софтуер за редактиране на снимки.",
+                "image": "/assets/images/photoshop.jfif",
+                "price": 299.99,
+                "characteristics": [
+                    {
+                        "name": "Инструменти",
+                        "value": "Разширени инструменти за обработка на изображения"
+                    },
+                    {
+                        "name": "Поддръжка",
+                        "value": "Слоеве и маски"
+                    },
+                    {
+                        "name": "Интеграция",
+                        "value": "Adobe Creative Cloud"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows и MacOS"
+                    }
+                ]
+            },
+            {
+                "id": "3s",
+                "name": "AutoCAD",
+                "description": "Водещ софтуер за проектиране и чертане.",
+                "image": "/assets/images/autocad.jfif",
+                "price": 1299.99,
+                "characteristics": [
+                    {
+                        "name": "Чертане",
+                        "value": "2D и 3D чертане"
+                    },
+                    {
+                        "name": "Файлови формати",
+                        "value": "DWG, DXF"
+                    },
+                    {
+                        "name": "Библиотека",
+                        "value": "Блокове и шаблони"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows и MacOS"
+                    }
+                ]
+            },
+            {
+                "id": "4s",
+                "name": "Norton Antivirus",
+                "description": "Мощен софтуер за защита от вируси и зловреден софтуер.",
+                "image": "/assets/images/norton.jfif",
+                "price": 49.99,
+                "characteristics": [
+                    {
+                        "name": "Защита",
+                        "value": "Реално време защита"
+                    },
+                    {
+                        "name": "Конфиденциалност",
+                        "value": "Защита на данни"
+                    },
+                    {
+                        "name": "Оптимизация",
+                        "value": "Подобряване на производителността"
+                    },
+                    {
+                        "name": "Лиценз",
+                        "value": "Годишен абонамент"
+                    }
+                ]
+            },
+            {
+                "id": "5s",
+                "name": "Zoom Pro",
+                "description": "Платформа за видео конференции с разширени функции.",
+                "image": "/assets/images/zoom.jfif",
+                "price": 199.99,
+                "characteristics": [
+                    {
+                        "name": "Видео качество",
+                        "value": "HD видео и аудио"
+                    },
+                    {
+                        "name": "Запис",
+                        "value": "Запис на срещи в облака"
+                    },
+                    {
+                        "name": "Функции",
+                        "value": "Споделяне на екран"
+                    },
+                    {
+                        "name": "Актуализации",
+                        "value": "Безплатни актуализации"
+                    }
+                ]
+            },
+            {
+                "id": "6s",
+                "name": "Slack",
+                "description": "Софтуер за екипна комуникация и сътрудничество.",
+                "image": "/assets/images/slack.png",
+                "price": 99.99,
+                "characteristics": [
+                    {
+                        "name": "Комуникация",
+                        "value": "Групови канали и лични съобщения"
+                    },
+                    {
+                        "name": "Интеграция",
+                        "value": "Множество приложения"
+                    },
+                    {
+                        "name": "Споделяне",
+                        "value": "Споделяне на файлове"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows, MacOS и мобилни устройства"
+                    }
+                ]
+            },
+            {
+                "id": "7s",
+                "name": "Visual Studio Code",
+                "description": "Безплатен редактор на код със синтактично оцветяване, отстраняване на грешки и интеграция с Git.",
+                "image": "/assets/images/vscode.png",
+                "price": 0,
+                "characteristics": [
+                    {
+                        "name": "Git интеграция",
+                        "value": "Поддръжка на Git за управление на версията на код."
+                    },
+                    {
+                        "name": "Разширяемост",
+                        "value": "Разширяван с много разширения за допълнителни функции."
+                    },
+                    {
+                        "name": "Кросплатформен",
+                        "value": "Поддържа Windows, Linux и macOS."
+                    },
+                    {
+                        "name": "Интелигентно допълване",
+                        "value": "Автоматично допълване на код чрез IntelliSense."
+                    }
+                ]
+            },
+            {
+                "id": "8s",
+                "name": "Trello",
+                "description": "Софттуер за управление на проекти с табла, списъци и карти за организиране на задачи.",
+                "image": "/assets/images/trello.png",
+                "price": 12.5,
+                "characteristics": [
+                    {
+                        "name": "Интерфейс с плъзгане и пускане",
+                        "value": "Лесно добавяне и преместване на елементи в таблата."
+                    },
+                    {
+                        "name": "Сътрудничество в екип",
+                        "value": "Споделяне на табла и съвместна работа с екипи."
+                    },
+                    {
+                        "name": "Интеграция с други инструменти",
+                        "value": "Интеграция с Slack, Google Drive, и други приложения."
+                    },
+                    {
+                        "name": "Автоматизирано управление на задачи",
+                        "value": "Автоматични действия за управление на задачи и срокове."
+                    }
+                ]
+            },
+            {
+                "id": "9s",
+                "name": "VLC Media Player",
+                "description": "Популярен мултимедиен плейър, който поддържа почти всички формати.",
+                "image": "/assets/images/vlc.jfif",
+                "price": 0,
+                "characteristics": [
+                    {
+                        "name": "Поддръжка на формати",
+                        "value": "Поддържа почти всички мултимедийни формати"
+                    },
+                    {
+                        "name": "Персонализация",
+                        "value": "Множество опции за персонализиране на интерфейса"
+                    },
+                    {
+                        "name": "Сигурност",
+                        "value": "Защита от вируси и зловреден софтуер"
+                    },
+                    {
+                        "name": "Платформи",
+                        "value": "Работи на Windows, MacOS, Linux и мобилни устройства"
+                    }
+                ]
+            },
+            {
+                "id": "10s",
+                "name": "Adobe Illustrator",
+                "description": "Професионален софтуер за създаване на векторни графики.",
+                "image": "/assets/images/illustrator.jfif",
+                "price": 259.99,
+                "characteristics": [
+                    {
+                        "name": "Векторни графики",
+                        "value": "Поддържа създаване и редактиране на векторни изображения"
+                    },
+                    {
+                        "name": "Интерфейс",
+                        "value": "Персонализиран и лесен за използване интерфейс"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows, MacOS"
+                    },
+                    {
+                        "name": "Експорт",
+                        "value": "Поддържа формати като SVG, PDF, EPS"
+                    }
+                ]
+            },
+            {
+                "id": "11s",
+                "name": "WinRAR",
+                "description": "Програма за компресиране и разархивиране на файлове.",
+                "image": "/assets/images/winrar.jfif",
+                "price": 40,
+                "characteristics": [
+                    {
+                        "name": "Компресиране",
+                        "value": "Поддържа множество формати за компресиране"
+                    },
+                    {
+                        "name": "Скорост",
+                        "value": "Бързо компресиране и разархивиране на файлове"
+                    },
+                    {
+                        "name": "Сигурност",
+                        "value": "Шифроване на архиви за допълнителна защита"
+                    },
+                    {
+                        "name": "Платформи",
+                        "value": "Windows, MacOS"
+                    }
+                ]
+            },
+            {
+                "id": "12s",
+                "name": "Camtasia",
+                "description": "Софтуер за запис и редактиране на видео.",
+                "image": "/assets/images/camtasia.jfif",
+                "price": 349.99,
+                "characteristics": [
+                    {
+                        "name": "Видео редактиране",
+                        "value": "Лесно редактиране на видео с голямо разнообразие от ефекти"
+                    },
+                    {
+                        "name": "Запис на екрана",
+                        "value": "Запис на екрана с възможност за добавяне на анотации"
+                    },
+                    {
+                        "name": "Съвместимост",
+                        "value": "Windows, MacOS"
+                    },
+                    {
+                        "name": "Експорт",
+                        "value": "Поддържа износ в различни формати и резолюции"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Мобилни устройства",
+        "products": [
+            {
+                "id": "1m",
+                "name": "iPhone 14 Pro",
+                "description": "iPhone 14 Pro е най-новият модел с напреднала камера, бързо зареждане и стилен дизайн.",
+                "image": "/assets/images/iphone14pro.jfif",
+                "price": 2499,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "A16 Bionic чип"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "3200 mAh, с до 23 часа време за разговори"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "12 MP главна камера с Night Mode"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.1 инчов Super Retina XDR дисплей"
+                    }
+                ]
+            },
+            {
+                "id": "2m",
+                "name": "Samsung Galaxy S22",
+                "description": "Samsung Galaxy S22 предлага страхотен дисплей и камера, съчетани с иновации в хардуера.",
+                "image": "/assets/images/galaxys22.jfif",
+                "price": 1999,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Snapdragon 8 Gen 1"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "3700 mAh, с до 18 часа време за разговори"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "50 MP основна камера с лазерно автофокусиране"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.1 инчов Dynamic AMOLED 2X"
+                    }
+                ]
+            },
+            {
+                "id": "3m",
+                "name": "OnePlus 9 Pro",
+                "description": "OnePlus 9 Pro е мобилен телефон с невероятна производителност и висока резолюция на камерата.",
+                "image": "/assets/images/oneplus9pro.jfif",
+                "price": 1799,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 888"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4500 mAh, с Warp Charge 65W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "48 MP основна камера с Hasselblad технология"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.7 инчов Fluid AMOLED дисплей с 120 Hz"
+                    }
+                ]
+            },
+            {
+                "id": "4m",
+                "name": "Google Pixel 6 Pro",
+                "description": "Google Pixel 6 Pro предлага изключителни снимки и бързо обновление на операционната система.",
+                "image": "/assets/images/googlepixel6pro.jfif",
+                "price": 1799,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Google Tensor чип"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "5000 mAh, с бързо зареждане 30W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "50 MP основна камера с подобрена Night Sight"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.7 инчов LTPO OLED дисплей"
+                    }
+                ]
+            },
+            {
+                "id": "5m",
+                "name": "Xiaomi Mi 11",
+                "description": "Xiaomi Mi 11 предлага страхотен дисплей и висока производителност на достъпна цена.",
+                "image": "/assets/images/xiaomi11.jfif",
+                "price": 1499,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 888"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4600 mAh, с бързо зареждане 55W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "108 MP основна камера"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.81 инчов AMOLED дисплей с 120 Hz"
+                    }
+                ]
+            },
+            {
+                "id": "6m",
+                "name": "Oppo Find X3 Pro",
+                "description": "Oppo Find X3 Pro е премиум мобилен телефон с уникален дизайн и страхотна производителност.",
+                "image": "/assets/images/oppofindx3pro.jfif",
+                "price": 1899,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 888"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4500 mAh, с бързо зареждане 65W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "50 MP основна камера"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.7 инчов AMOLED дисплей с 120 Hz"
+                    }
+                ]
+            },
+            {
+                "id": "7m",
+                "name": "Sony Xperia 1 III",
+                "description": "Sony Xperia 1 III е мобилен телефон със специализирана камера и 4K дисплей.",
+                "image": "/assets/images/sonyxperia1iii.jfif",
+                "price": 2299,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 888"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4500 mAh, с бързо зареждане 30W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "12 MP основна камера с Zeiss оптика"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.5 инчов 4K OLED дисплей"
+                    }
+                ]
+            },
+            {
+                "id": "8m",
+                "name": "Huawei P50 Pro",
+                "description": "Huawei P50 Pro предлага невероятна камера и висока производителност за професионалисти.",
+                "image": "/assets/images/huaweip50pro.jfif",
+                "price": 2099,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Kirin 9000"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4360 mAh, с бързо зареждане 66W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "50 MP основна камера с Leica оптика"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.6 инчов OLED дисплей с 120 Hz"
+                    }
+                ]
+            },
+            {
+                "id": "9m",
+                "name": "Realme GT 5G",
+                "description": "Realme GT 5G предлага висока производителност и бързо зареждане на достъпна цена.",
+                "image": "/assets/images/realmegt5g.jfif",
+                "price": 1299,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 870"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4500 mAh, с бързо зареждане 65W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "64 MP основна камера"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "6.43 инчов Super AMOLED дисплей с 120 Hz"
+                    }
+                ]
+            },
+            {
+                "id": "10m",
+                "name": "Asus Zenfone 8",
+                "description": "Asus Zenfone 8 предлага компактни размери и висока производителност.",
+                "image": "/assets/images/asuszenfone8.jfif",
+                "price": 1399,
+                "category": "Мобилни устройства",
+                "characteristics": [
+                    {
+                        "name": "Процесор",
+                        "value": "Qualcomm Snapdragon 888"
+                    },
+                    {
+                        "name": "Батерия",
+                        "value": "4000 mAh, с бързо зареждане 30W"
+                    },
+                    {
+                        "name": "Камера",
+                        "value": "64 MP основна камера"
+                    },
+                    {
+                        "name": "Екран",
+                        "value": "5.9 инчов AMOLED дисплей с 120 Hz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Мода",
+        "products": [
+            {
+                "id": "1f",
+                "name": "Черен кожен панталон",
+                "description": "Кожен панталон с класически дизайн и стилна визия за всяка вечерна изява.",
+                "image": "/assets/images/blackleatherpants.jfif",
+                "price": 299,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "100% естествена кожа"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Черен"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "S, M, L, XL"
+                    },
+                    {
+                        "name": "Закопчаване",
+                        "value": "Цип и копчета"
+                    }
+                ]
+            },
+            {
+                "id": "2f",
+                "name": "Риза с дълъг ръкав",
+                "description": "Елегантна риза с дълъг ръкав и класически ревер, подходяща за бизнес срещи и официални събития.",
+                "image": "/assets/images/whitelongshirt.jfif",
+                "price": 149,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "Памук и еластан"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Бял"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "M, L, XL"
+                    },
+                    {
+                        "name": "Деколте",
+                        "value": "Класическо с ревер"
+                    }
+                ]
+            },
+            {
+                "id": "3f",
+                "name": "Черен спортен суитчър",
+                "description": "Удобен и стилен суитчър за спорт и ежедневни излети, изработен от мека памучна материя.",
+                "image": "/assets/images/blacksporthoodie.jfif",
+                "price": 89,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "100% памук"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Черен"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "S, M, L, XL"
+                    },
+                    {
+                        "name": "Качулка",
+                        "value": "С качулка и регулиращо се връзка"
+                    }
+                ]
+            },
+            {
+                "id": "4f",
+                "name": "Бяла тениска с принт",
+                "description": "Удобна бяла тениска с креативен принт, подходяща за ежедневно носене.",
+                "image": "/assets/images/whitetshirtwithprint.jfif",
+                "price": 49,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "100% памук"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Бял"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "S, M, L"
+                    },
+                    {
+                        "name": "Принт",
+                        "value": "Графичен принт на предната част"
+                    }
+                ]
+            },
+            {
+                "id": "5f",
+                "name": "Стилни кецове",
+                "description": "Модерни и удобни кецове за ежедневно носене, с гумена подметка за по-добро сцепление.",
+                "image": "/assets/images/stylishsneakers.jfif",
+                "price": 129,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "Еко кожа"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Бял"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "36, 37, 38, 39, 40"
+                    },
+                    {
+                        "name": "Подметка",
+                        "value": "Гумена, с висока издръжливост"
+                    }
+                ]
+            },
+            {
+                "id": "6f",
+                "name": "Рокля с тънки презрамки",
+                "description": "Лятна рокля с тънки презрамки, подходяща за ежедневието или за вечерни излизания.",
+                "image": "/assets/images/summerdress.jfif",
+                "price": 199,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "Шифон"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Розов"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "S, M, L"
+                    },
+                    {
+                        "name": "Деколте",
+                        "value": "V-образно деколте"
+                    }
+                ]
+            },
+            {
+                "id": "7f",
+                "name": "Слънчеви очила",
+                "description": "Модерни слънчеви очила със защитни UV лещи и стилна рамка.",
+                "image": "/assets/images/sunglasses.jfif",
+                "price": 79,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "Пластмаса и метал"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Черна рамка"
+                    },
+                    {
+                        "name": "UV защита",
+                        "value": "UV400 защита"
+                    },
+                    {
+                        "name": "Форма на рамката",
+                        "value": "Овална"
+                    }
+                ]
+            },
+            {
+                "id": "8f",
+                "name": "Тъмно сини джинси",
+                "description": "Джинси с класическа кройка и тъмен цвят, които се комбинират лесно с всякакви дрехи.",
+                "image": "/assets/images/bluejeans.jfif",
+                "price": 119,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "95% памук, 5% еластан"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Тъмно син"
+                    },
+                    {
+                        "name": "Размери",
+                        "value": "S, M, L, XL"
+                    },
+                    {
+                        "name": "Закопчаване",
+                        "value": "Цип и копче"
+                    }
+                ]
+            },
+            {
+                "id": "9f",
+                "name": "Чанта през рамо",
+                "description": "Елегантна чанта през рамо с регулируема дръжка и стилна визия.",
+                "image": "/assets/images/shoulderbag.jfif",
+                "price": 89,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "Еко кожа"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Кафяв"
+                    },
+                    {
+                        "name": "Размер",
+                        "value": "Среден"
+                    },
+                    {
+                        "name": "Подплата",
+                        "value": "Текстилна подплата"
+                    }
+                ]
+            },
+            {
+                "id": "10f",
+                "name": "Шал с плетена шарка",
+                "description": "Топъл и уютен шал с плетена шарка, подходящ за студените зимни дни.",
+                "image": "/assets/images/winterscarf.jfif",
+                "price": 39,
+                "category": "Мода",
+                "characteristics": [
+                    {
+                        "name": "Материал",
+                        "value": "100% акрил"
+                    },
+                    {
+                        "name": "Цвят",
+                        "value": "Сив"
+                    },
+                    {
+                        "name": "Размер",
+                        "value": "180x30 см"
+                    },
+                    {
+                        "name": "Тип",
+                        "value": "Плетен шал"
+                    }
+                ]
+            }
+        ]
+    }
+]

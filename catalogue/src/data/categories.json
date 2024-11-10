@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Софтуер",
+        "altText": "Изображение за Софтуер",
+        "icon": "/assets/images/software256.png",
+        "link": "/category/software"
+    },
+    {
+        "name": "Мобилни устройства",
+        "altText": "Изображение за Мобилни устройства",
+        "icon": "/assets/images/devices256.png",
+        "link": "/category/mobile-devices"
+    },
+    {
+        "name": "Мода",
+        "altText": "Изображение за Мода",
+        "icon": "/assets/images/fashion256.png",
+        "link": "/category/fashion"
+    }
+]

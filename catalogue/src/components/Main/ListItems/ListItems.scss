@@ -1,0 +1,32 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.list-items-container {
+    width: 80%;
+    margin-bottom: 10px;
+    @include flex-container(column, wrap, center, center);
+
+    .unordered-list-items {
+        padding: 0;
+        width: 100%;
+        @include flex-container(row, wrap, center, stretch);
+        gap: 25px;
+    }
+
+    .load-button {
+        margin: 20px;
+        padding: 10px;
+        border: 5px solid $primary-color;
+        border-radius: 10px;
+        background-color: $card-background-color;
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .load-button:hover {
+        background-color: $secondary-background-color;
+        color: $background-color;
+    }
+}

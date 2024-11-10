@@ -1,0 +1,49 @@
+@import "../../../../styles/variables";
+@import "../../../../styles/mixins";
+
+
+.list-card-container {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    cursor: pointer;
+
+    .item-card {
+        width: 200px;
+        padding: 20px 10px;
+        border: 5px solid $primary-color;
+        border-radius: 10px;
+        background-color: $card-background-color;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        @include flex-container(column, wrap, space-between, center);
+
+        .card-image-container {
+            height: 180px;
+            width: 180px;
+            background-color: white;
+            text-align: center;
+
+            .card-image {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .card-title {
+            max-width: 100%;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .card-price {
+            margin-top: 0;
+            font-weight: 500;
+        }
+    }
+
+    .item-card:hover {
+        background-color: $card-hover-background-color;
+        color: $background-color;
+    }
+}
