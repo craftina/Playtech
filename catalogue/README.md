@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+## PlayTech Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+This project is a **Product Catalogue Application** built using **JavaScript** and **React**. The task is to create a small product catalogue that categorizes products into three main categories: **Software**, **Mobile Devices**, and **Fashion**. Each product has a name, description, image, price, and category-specific characteristics. The application is designed to be responsive, with a simple yet intuitive UI for easy navigation and exploration of products.
 
-## Available Scripts
+## Table of Contents
+- [Requirements](#requirements)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
-In the project directory, you can run:
+## Requirements
+The application needs to meet the following requirements:
+- **Product Categories**:
+  - **Software**: Characteristics may include license type, platform, version, etc.
+  - **Mobile Devices**: Characteristics may include battery life, processor, RAM, camera, etc.
+  - **Fashion**: Characteristics may include size, color, material, etc.
+- **Product Information**:
+  - Each product should have a name, description, image, and price.
+- **Responsive UI**:
+  - The UI should be simple and responsive.
+  - The main page should list a fixed number of products with a "Load More" button at the bottom to display additional products.
+  - Clicking on a product should open a detailed pop-up modal with full product information.
+- **Data Handling**:
+  - The configuration for products is stored locally in the project as a JSON file.
 
-### `npm start`
+## Features
+- **Category-Based Product Listing**: Browse products categorized under Software, Mobile Devices, and Fashion.
+- **Product Details Modal**: View detailed information of a product in a modal pop-up, including category-specific characteristics.
+- **Load More Functionality**: Dynamically load more products on the page using the "Load More" button.
+- **Responsive Design**: Ensures a smooth user experience across both mobile and desktop devices.
+- **Dropdown Navigation**: Quickly switch between different product categories.
+- **CSS Animations**: Provides smooth transitions for a polished user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **React**: For building the user interface and managing components.
+- **JavaScript (ES6+)**: Core logic for implementing functionalities.
+- **SCSS**: For styling the application with responsive and maintainable stylesheets.
+- **React Router**: For navigation between different pages and categories.
+- **JSON**: Local data storage for product information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To set up the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- **Node.js** (v14 or later)
+- **npm** (v6 or later) or **yarn** (v1.22 or later)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Clone the Repository
+```bash
+git clone https://github.com/craftina/Playtech.git
+cd Playtech/catalogue
