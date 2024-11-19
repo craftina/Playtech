@@ -1,0 +1,120 @@
+// Variables
+$primary-color: #07448D;
+$secondary-color: #DBDDDC;
+$background-color: #DBDDDC;
+$border-color: #9FA09F;
+$background-hover-color: #A1B4C7;
+
+// Mixins
+@mixin flex-container($direction: row, $wrap: wrap, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+// Base styles
+body {
+    margin: 0;
+    height: 100%;
+    background-color: $background-color;
+    color: $primary-color;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#quiz-container {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    margin: 20px;
+    @include flex-container(column, wrap, center, center);
+
+    #question-container {
+        width: 80%;
+    }
+}
+
+#question-form {
+    width: 100%;
+    @include flex-container(column, wrap, center, center);
+
+    .question-text {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(219, 221, 220, 0.5);
+        text-align: center;
+    }
+   
+}
+
+.option-container {
+    width: 100%;
+    @include flex-container(column, wrap, flex-start, stretch);
+    gap: 10px;
+
+    .option-div {
+        padding: 10px;
+        border: 3px solid $border-color;
+        border-radius: 10px;
+        background-color: $background-color;
+    }
+
+    .option-div:hover {
+        background-color: $background-hover-color;
+        cursor: pointer;
+
+        * {
+            cursor: inherit;
+        }
+    }
+}
+
+.result-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#result {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid $primary-color;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: $background-hover-color;
+    color: $primary-color;
+    cursor: pointer;
+}
+
+#question-container .option-div.wrong-answer {
+    background-color: #DF7783;
+}
+
+#question-container .option-div.correct-answer {
+    background-color: #72BC86;
+}
+
+.correct-text {
+    color: #72BC86;
+}
+
+.wrong-text {
+    color: #DF7783;
+}

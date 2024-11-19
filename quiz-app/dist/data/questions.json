@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+      "options": [
+        "<script name='app.js'>",
+        "<script src='app.js'>",
+        "<script href='app.js'>",
+        "<script file='app.js'>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function myFunction()",
+        "function:myFunction()",
+        "function = myFunction()",
+        "def myFunction()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "How can you add a comment in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "'This is a comment",
+        "<!-- This is a comment -->",
+        "# This is a comment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What will the following code return: Boolean(10 > 9)?",
+      "options": [
+        "true",
+        "false",
+        "NaN",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "options": [
+        "Number",
+        "String",
+        "Boolean",
+        "Character"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "question": "Which company developed JavaScript?",
+      "options": [
+        "Microsoft",
+        "Sun Microsystems",
+        "Netscape",
+        "Oracle"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "Which symbol is used for comments in JavaScript?",
+      "options": [
+        "//",
+        "**",
+        "##",
+        "%%"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is the output of 'console.log(typeof NaN);'?",
+      "options": [
+        "'number'",
+        "'string'",
+        "'undefined'",
+        "'NaN'"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Which method is used to find the length of a string in JavaScript?",
+      "options": [
+        "length()",
+        "size()",
+        "index()",
+        "strLength()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "Which method converts JSON data to a JavaScript object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.object()",
+        "JSON.toObject()"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+  

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #DBDDDC;
+  color: #07448D;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#quiz-container {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#quiz-container #question-container {
+  width: 80%;
+}
+
+#question-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#question-form .question-text {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(219, 221, 220, 0.5);
+  text-align: center;
+}
+
+.option-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
+}
+.option-container .option-div {
+  padding: 10px;
+  border: 3px solid #9FA09F;
+  border-radius: 10px;
+  background-color: #DBDDDC;
+}
+.option-container .option-div:hover {
+  background-color: #A1B4C7;
+  cursor: pointer;
+}
+.option-container .option-div:hover * {
+  cursor: inherit;
+}
+
+.result-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#result {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 5px solid #07448D;
+  border-radius: 10px;
+  background-color: #07448D;
+  color: #DBDDDC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #A1B4C7;
+  color: #07448D;
+  cursor: pointer;
+}
+
+#question-container .option-div.wrong-answer {
+  background-color: #DF7783;
+}
+
+#question-container .option-div.correct-answer {
+  background-color: #72BC86;
+}
+
+.correct-text {
+  color: #72BC86;
+}
+
+.wrong-text {
+  color: #DF7783;
+}
+
+/*# sourceMappingURL=styles.css.map */
